@@ -1,0 +1,12 @@
+.header {
+  background-image: url('../images/首圖.png');
+  background-position: center;
+  background-size: cover;
+  height: 210px;
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    background-image: url('../images/首圖@2x.png');;
+  }
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    background-image: url('../images/首圖@3x.png');;
+  }
+}

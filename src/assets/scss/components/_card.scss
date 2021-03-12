@@ -2,7 +2,9 @@
   background-color: $white;
   border-radius: 6px;
   box-shadow: $box-shadow-lg-plus;
+  overflow: hidden;
   padding: 12px 10px 5px;
+  position: relative;
 
   &__title {
     color: $gray-45;

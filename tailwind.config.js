@@ -5,13 +5,13 @@ module.exports = {
     extend: {
       fontSize: {
         15: [
-          '15',
+          '15px',
           {
             lineHeight: '1.47',
           },
         ],
         17: [
-          '17',
+          '17px',
           {
             lineHeight: '1.47',
           },
@@ -21,6 +21,8 @@ module.exports = {
         'hi-1.14': '1.14',
         'hi-1.17': '1.17',
         'hi-1.21': '1.21',
+        'hi-1.28': '1.28',
+        'hi-1.33': '1.33',
       },
       letterSpacing: {
         'hi-1': '0.01em',
