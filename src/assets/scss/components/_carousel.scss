@@ -1,0 +1,40 @@
+.carousel {
+  background-image: url('../images/首圖.png');
+  background-position: center;
+  background-size: cover;
+  height: 210px;
+  padding-bottom: 0.5rem;
+  position: relative;
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    background-image: url('../images/首圖@2x.png');;
+  }
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    background-image: url('../images/首圖@3x.png');;
+  }
+
+  &__dot {
+    bottom: 0.5rem;
+    display: flex;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+
+    li {
+      line-height: 6px;
+
+      ~ li {
+        margin-left: 0.25rem;
+      }
+    }
+
+    button {
+      @include generate-dot;
+      background-color: $white;
+      opacity: 0.5;
+    }
+
+    .active {
+      opacity: 1;
+    }
+  }
+}

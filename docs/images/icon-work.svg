@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-work" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#118995}.cls-2{opacity:.2}.cls-3{fill:#fdc00f}
+        </style>
+    </defs>
+    <g id="Layer_1" data-name="Layer 1">
+        <path id="Path_81" d="M1.91 35.41v15.232a5.09 5.09 0 0 0 1.423 3.543 4.773 4.773 0 0 0 3.435 1.463h36.917a4.773 4.773 0 0 0 3.435-1.463 5.09 5.09 0 0 0 1.423-3.543V35.41z" class="cls-1" data-name="Path 81" transform="translate(-.226 -5.649)"/>
+        <path id="Path_82" d="M44.858 11.14H5.133A5.213 5.213 0 0 0 0 16.429v15.1a.99.99 0 0 0 .975 1h48.05a.99.99 0 0 0 .975-1V16.446a5.372 5.372 0 0 0-1.5-3.754 5.058 5.058 0 0 0-3.641-1.552z" class="cls-1" data-name="Path 82" transform="translate(0 -1.795)"/>
+        <path id="Rectangle_1351" d="M0 0H46.633V1.886H0z" class="cls-2" data-name="Rectangle 1351" transform="translate(1.684 30.299)"/>
+        <rect id="Rectangle_1352" width="7.378" height="7.378" class="cls-2" data-name="Rectangle 1352" rx="1.14" transform="translate(7.891 27.585)"/>
+        <rect id="Rectangle_1353" width="7.378" height="7.378" class="cls-3" data-name="Rectangle 1353" rx="1.14" transform="translate(7.891 26.622)"/>
+        <rect id="Rectangle_1354" width="7.378" height="7.378" class="cls-2" data-name="Rectangle 1354" rx="1.14" transform="translate(34.731 27.585)"/>
+        <rect id="Rectangle_1355" width="7.378" height="7.378" class="cls-3" data-name="Rectangle 1355" rx="1.14" transform="translate(34.731 26.622)"/>
+        <path id="Path_83" d="M39.748 9.82h-3.809v-4.8a.979.979 0 0 0-.942-1h-16.8a.979.979 0 0 0-.95 1v4.8H13.46v-4.8A4.885 4.885 0 0 1 18.194 0H35a4.615 4.615 0 0 1 3.359 1.466 5.166 5.166 0 0 1 1.392 3.55z" class="cls-3" data-name="Path 83" transform="translate(-1.595)"/>
+    </g>
+</svg>

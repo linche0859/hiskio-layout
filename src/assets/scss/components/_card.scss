@@ -1,0 +1,19 @@
+.card {
+  background-color: $white;
+  border-radius: 6px;
+  box-shadow: $box-shadow-lg-plus;
+  padding: 12px 10px 5px;
+
+  &__title {
+    color: $gray-45;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1.75;
+  }
+
+  &__img {
+    border-radius: 6px;
+    object-fit: contain;
+    width: 40.58%;
+  }
+}

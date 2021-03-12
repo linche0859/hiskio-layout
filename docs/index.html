@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首頁</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- 導覽列 -->
+    <nav class="container flex items-center">
+      <a href="#" class="mr-3 py-4">
+        <img src="./images/logo-hiskio.svg" alt="logo" />
+      </a>
+      <button class="py-4">
+        <img src="./images/icon-search.svg" alt="search icon" />
+      </button>
+      <div class="flex items-center ml-auto">
+        <button class="mr-3 py-4">
+          <img src="./images/icon-cart.svg" alt="cart icon" />
+        </button>
+        <button class="py-4">
+          <img src="./images/icon-menu.svg" alt="menu icon" />
+        </button>
+      </div>
+    </nav>
+    <!-- 輪播 -->
+    <header class="carousel">
+      <ul class="carousel__dot">
+        <li>
+          <button class="active"></button>
+        </li>
+        <li>
+          <button></button>
+        </li>
+        <li>
+          <button></button>
+        </li>
+        <li>
+          <button></button>
+        </li>
+        <li>
+          <button></button>
+        </li>
+      </ul>
+    </header>
+    <!-- 課程分類 -->
+    <div class="container overflow-hidden border-b border-hi-f0">
+      <ul class="flex">
+        <li class="flex-shrink-0 mr-3">
+          <a href="#" class="block pt-3 pb-2 text-15 text-hi-45">網頁前端</a>
+        </li>
+        <li class="flex-shrink-0 mr-3">
+          <a href="#" class="block pt-3 pb-2 text-15 text-hi-45">網頁後端</a>
+        </li>
+        <li class="flex-shrink-0 mr-3">
+          <a href="#" class="block pt-3 pb-2 text-15 text-hi-45">手機應用</a>
+        </li>
+        <li class="flex-shrink-0 mr-3">
+          <a href="#" class="block pt-3 pb-2 text-15 text-hi-45"
+            >資料庫 / 數據分析</a
+          >
+        </li>
+        <li class="flex-shrink-0 mr-3">
+          <a href="#" class="block pt-3 pb-2 text-15 text-hi-45">人工智慧</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 熱門標籤 -->
+    <div class="container py-2">
+      <h2 class="mb-2 text-sm text-gray-600">熱門標籤</h2>
+      <ul class="flex flex-wrap">
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >Linux</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >Kubernetes</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >DevOps</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >DialogFlow</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >Framework</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >C#</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >PHP</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >Fintech</a
+          >
+        </li>
+        <li class="mr-2 mb-2">
+          <a
+            href="#"
+            class="block p-2 text-sm leading-4 tracking-hi-3 bg-hi-f5 text-primary rounded-md"
+            >C#</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- 課程大項 -->
+    <div class="bg-hi-fa pt-6 pb-5">
+      <ul class="flex">
+        <li class="flex justify-center items-center flex-grow">
+          <a href="#" class="block">
+            <img
+              src="./images/icon-certs.svg"
+              alt="professional icon"
+              class="mb-2"
+              width="55"
+            />
+            <p
+              class="text-center text-17 tracking-hi-4 text-hi-45 font-semibold"
+            >
+              專業
+            </p>
+          </a>
+        </li>
+        <li class="flex justify-center items-center flex-grow">
+          <a href="#" class="block">
+            <img
+              src="./images/con-books.svg"
+              alt="professional icon"
+              class="mb-2"
+            />
+            <p
+              class="text-center text-17 tracking-hi-4 text-hi-45 font-semibold"
+            >
+              深入
+            </p>
+          </a>
+        </li>
+        <li class="flex justify-center items-center flex-grow">
+          <a href="#" class="block">
+            <img
+              src="./images/icon-work.svg"
+              alt="professional icon"
+              class="mb-2"
+            />
+            <p
+              class="text-center text-17 tracking-hi-4 text-hi-45 font-semibold"
+            >
+              實用
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <main class="index bg-hi-fa">
+      <!-- 興趣的課程 -->
+      <section class="container mb-6">
+        <h2 class="mb-3 text-lg text-hi-45 font-semibold">
+          你可能感興趣的課程
+        </h2>
+        <ul class="flex flex-col">
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖4.png"
+                srcset="./images/封面圖4@2x.png 2x, ./images/封面圖4@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1 font-semibold text-primary">
+                  <span class="text-sm">NTD</span>
+                  <span class="text-xl">2,000</span>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">GA 流量掘金術｜成長駭客新手村</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖2.png"
+                srcset="./images/封面圖2@2x.png 2x, ./images/封面圖2@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">5,800</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">行銷人學 Python｜輕鬆提升社群經營成效</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/組合3.png"
+                srcset="./images/組合3@2x.png 2x, ./images/組合3@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">1,600</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">NUXT.js 前端開發實戰手冊</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖3.png"
+                srcset="./images/封面圖3@2x.png 2x, ./images/封面圖3@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">1,900</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">比特幣 x 程式交易｜新手幣勝攻略</h5>
+          </li>
+        </ul>
+      </section>
+      <!-- 最新上架 -->
+      <section class="container mb-6">
+        <h2 class="flex justify-between items-center mb-3">
+          <span class="text-lg text-hi-45 font-semibold">最新上架</span>
+          <a href="#" class="text-sm text-gray-600">更多最新課程</a>
+        </h2>
+        <ul class="flex flex-col">
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖4.png"
+                srcset="./images/封面圖4@2x.png 2x, ./images/封面圖4@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1 font-semibold text-primary">
+                  <span class="text-sm">NTD</span>
+                  <span class="text-xl">2,000</span>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">GA 流量掘金術｜成長駭客新手村</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖2.png"
+                srcset="./images/封面圖2@2x.png 2x, ./images/封面圖2@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">5,800</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">行銷人學 Python｜輕鬆提升社群經營成效</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/組合3.png"
+                srcset="./images/組合3@2x.png 2x, ./images/組合3@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">1,600</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">NUXT.js 前端開發實戰手冊</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖3.png"
+                srcset="./images/封面圖3@2x.png 2x, ./images/封面圖3@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">1,900</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">比特幣 x 程式交易｜新手幣勝攻略</h5>
+          </li>
+        </ul>
+      </section>
+      <!-- 熱門課程 -->
+      <section class="container mb-6">
+        <h2 class="flex justify-between items-center mb-3">
+          <span class="text-lg text-hi-45 font-semibold">熱門課程</span>
+          <a href="#" class="text-sm text-gray-600">更多熱門課程</a>
+        </h2>
+        <ul class="flex flex-col">
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖4.png"
+                srcset="./images/封面圖4@2x.png 2x, ./images/封面圖4@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1 font-semibold text-primary">
+                  <span class="text-sm">NTD</span>
+                  <span class="text-xl">2,000</span>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">GA 流量掘金術｜成長駭客新手村</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖2.png"
+                srcset="./images/封面圖2@2x.png 2x, ./images/封面圖2@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">5,800</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">行銷人學 Python｜輕鬆提升社群經營成效</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/組合3.png"
+                srcset="./images/組合3@2x.png 2x, ./images/組合3@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">1,600</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">NUXT.js 前端開發實戰手冊</h5>
+          </li>
+          <li class="card">
+            <div class="flex items-center mb-2">
+              <img
+                src="./images/封面圖3.png"
+                srcset="./images/封面圖3@2x.png 2x, ./images/封面圖3@3x.png 3x"
+                class="card__img"
+              />
+              <div class="pl-2">
+                <div class="flex mb-2">
+                  <!-- 評價 -->
+                  <div class="flex items-center mr-8">
+                    <span
+                      class="material-icons mr-1 text-base leading-none text-warning"
+                      >star
+                    </span>
+                    <span
+                      class="mr-1 text-sm leading-hi-1.14 tracking-hi-4 text-gray-600"
+                      >5.0</span
+                    >
+                    <span
+                      class="text-sm leading-hi-1.14 tracking-hi-4 text-gray-500"
+                      >(97)</span
+                    >
+                  </div>
+                  <div class="flex items-center text-gray-600">
+                    <span class="material-icons mr-1 text-xl leading-none">
+                      people_alt
+                    </span>
+                    <span class="text-sm leading-hi-1.14 tracking-hi-3"
+                      >422</span
+                    >
+                  </div>
+                </div>
+                <!-- 講師資訊 -->
+                <div class="flex items-center">
+                  <img
+                    src="./images/lecturer.png"
+                    alt="lecturer"
+                    class="mr-1 w-6 object-cover rounded-full"
+                  />
+                  <p class="text-sm leading-7 tracking-hi-3 text-gray-600">
+                    Mia Liu
+                  </p>
+                </div>
+                <!-- 售價 -->
+                <div class="leading-6 tracking-hi-1">
+                  <span class="text-sm font-semibold text-hot">NTD</span>
+                  <span class="text-xl font-semibold text-hot">1,900</span>
+                  <del class="text-sm text-gray-500">NTD 5,000</del>
+                </div>
+              </div>
+            </div>
+            <h5 class="card__title">比特幣 x 程式交易｜新手幣勝攻略</h5>
+          </li>
+        </ul>
+      </section>
+      <!-- 系列課程 -->
+      <section class="index__seriesCourses container pb-6 overflow-hidden">
+        <h2 class="flex justify-between items-center mb-3">
+          <span class="text-lg text-hi-45 font-semibold">系列課程</span>
+          <a href="#" class="text-sm text-gray-600">更多系列課程</a>
+        </h2>
+        <div class="flex mb-3">
+          <ul class="index__seriesCoursesList">
+            <li class="card">
+              <img
+                src="./images/組合.png"
+                srcset="./images/組合@2x.png 2x, ./images/組合@3x.png 3x"
+                class="card__img mr-2"
+              />
+              <div>
+                <h5 class="card__title">API 整合實戰系列課程組合大補帖</h5>
+                <p class="text-xs leading-normal text-gray-600">6 堂課組合</p>
+                <!-- 售價 -->
+                <div class="tracking-hi-1">
+                  <span class="text-xs leading-5 font-semibold text-hot"
+                    >NTD</span
+                  >
+                  <span class="text-base leading-5 font-semibold text-hot"
+                    >50,990</span
+                  >
+                  <del class="text-xs leading-hi-1.17 text-gray-500"
+                    >NTD 100,100</del
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/組合3.png"
+                srcset="./images/組合3@2x.png 2x, ./images/組合3@3x.png 3x"
+                class="card__img mr-2"
+              />
+              <div>
+                <h5 class="card__title">比特幣 x 程式交易｜新手幣勝攻略</h5>
+                <p class="text-xs leading-normal text-gray-600">6 堂課組合</p>
+                <!-- 售價 -->
+                <div class="tracking-hi-1">
+                  <span class="text-xs leading-5 font-semibold text-hot"
+                    >NTD</span
+                  >
+                  <span class="text-base leading-5 font-semibold text-hot"
+                    >41,999</span
+                  >
+                  <del class="text-xs leading-hi-1.17 text-gray-500"
+                    >NTD 100,100</del
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/封面圖5.png"
+                srcset="./images/封面圖5@2x.png 2x, ./images/封面圖5@3x.png 3x"
+                class="card__img mr-2"
+              />
+              <div>
+                <h5 class="card__title">GA 流量掘金術｜成長駭客新手村</h5>
+                <p class="text-xs leading-normal text-gray-600">6 堂課組合</p>
+                <!-- 售價 -->
+                <div class="tracking-hi-1">
+                  <span class="text-xs leading-5 font-semibold text-hot"
+                    >NTD</span
+                  >
+                  <span class="text-base leading-5 font-semibold text-hot"
+                    >8,290</span
+                  >
+                  <del class="text-xs leading-hi-1.17 text-gray-500"
+                    >NTD 100,000</del
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="index__seriesCoursesList">
+            <li class="card">
+              <img
+                src="./images/組合.png"
+                srcset="./images/組合@2x.png 2x, ./images/組合@3x.png 3x"
+                class="card__img mr-2"
+              />
+              <div>
+                <h5 class="card__title">API 整合實戰系列課程組合大補帖</h5>
+                <p class="text-xs leading-normal text-gray-600">6 堂課組合</p>
+                <!-- 售價 -->
+                <div class="tracking-hi-1">
+                  <span class="text-xs leading-5 font-semibold text-hot"
+                    >NTD</span
+                  >
+                  <span class="text-base leading-5 font-semibold text-hot"
+                    >50,990</span
+                  >
+                  <del class="text-xs leading-hi-1.17 text-gray-500"
+                    >NTD 100,100</del
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/組合3.png"
+                srcset="./images/組合3@2x.png 2x, ./images/組合3@3x.png 3x"
+                class="card__img mr-2"
+              />
+              <div>
+                <h5 class="card__title">比特幣 x 程式交易｜新手幣勝攻略</h5>
+                <p class="text-xs leading-normal text-gray-600">6 堂課組合</p>
+                <!-- 售價 -->
+                <div class="tracking-hi-1">
+                  <span class="text-xs leading-5 font-semibold text-hot"
+                    >NTD</span
+                  >
+                  <span class="text-base leading-5 font-semibold text-hot"
+                    >41,999</span
+                  >
+                  <del class="text-xs leading-hi-1.17 text-gray-500"
+                    >NTD 100,100</del
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/封面圖5.png"
+                srcset="./images/封面圖5@2x.png 2x, ./images/封面圖5@3x.png 3x"
+                class="card__img mr-2"
+              />
+              <div>
+                <h5 class="card__title">GA 流量掘金術｜成長駭客新手村</h5>
+                <p class="text-xs leading-normal text-gray-600">6 堂課組合</p>
+                <!-- 售價 -->
+                <div class="tracking-hi-1">
+                  <span class="text-xs leading-5 font-semibold text-hot"
+                    >NTD</span
+                  >
+                  <span class="text-base leading-5 font-semibold text-hot"
+                    >8,290</span
+                  >
+                  <del class="text-xs leading-hi-1.17 text-gray-500"
+                    >NTD 100,000</del
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="index__dot">
+          <li>
+            <button class="active"></button>
+          </li>
+          <li>
+            <button></button>
+          </li>
+          <li>
+            <button></button>
+          </li>
+          <li>
+            <button></button>
+          </li>
+        </ul>
+      </section>
+      <!-- 學生口碑 -->
+      <section class="index__studentEvaluation container mb-6 overflow-hidden">
+        <h2 class="mb-4 text-center text-lg text-hi-45 font-semibold">
+          學生口碑
+        </h2>
+        <div class="flex mb-3">
+          <ul class="index__studentEvaluationList">
+            <li class="card">
+              <!-- 學生資訊 -->
+              <div class="flex items-center mb-1">
+                <img
+                  src="./images/lecturer.png"
+                  alt="lecturer"
+                  class="mr-2 w-6 object-cover rounded-full"
+                />
+                <span
+                  class="text-sm leading-hi-1.21 tracking-hi-3 text-gray-600"
+                  >紅蘿蔔四五六七八九十</span
+                >
+                <span
+                  class="ml-auto text-sm leading-hi-1.14 tracking-hi-3 text-gray-500"
+                  >2020/02/12</span
+                >
+              </div>
+              <!-- 口碑內容 -->
+              <p class="mb-1 text-15 tracking-hi-2 text-gray-700">
+                老師很用心！課程順序有邏輯且好理解
+                課後有什麼問題老師回答的很快速 還給我這個程式麻瓜鼓勵
+                推推！！練習題也很有鑑別度。
+              </p>
+              <!-- 評價 -->
+              <div class="flex items-center mb-3">
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+              </div>
+              <!-- 課程資訊 -->
+              <div class="flex items-center py-1 px-2 bg-hi-fa">
+                <img
+                  src="./images/b5075134246d0a6d7ff48fa64c469acf.png"
+                  srcset="
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@2x.png 2x,
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@3x.png 3x
+                  "
+                  class="card__img"
+                />
+                <h5 class="card__title">
+                  Flutter X Dart 跨平台開發入門｜輕鬆打造原生應用App
+                </h5>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 學生資訊 -->
+              <div class="flex items-center mb-1">
+                <img
+                  src="./images/lecturer.png"
+                  alt="lecturer"
+                  class="mr-2 w-6 object-cover rounded-full"
+                />
+                <span
+                  class="text-sm leading-hi-1.21 tracking-hi-3 text-gray-600"
+                  >紅蘿蔔四五六七八九十</span
+                >
+                <span
+                  class="ml-auto text-sm leading-hi-1.14 tracking-hi-3 text-gray-500"
+                  >2020/02/12</span
+                >
+              </div>
+              <!-- 口碑內容 -->
+              <p class="mb-1 text-15 tracking-hi-2 text-gray-700">
+                老師很用心！課程順序有邏輯且好理解
+                課後有什麼問題老師回答的很快速 還給我這個程式麻瓜鼓勵
+                推推！！練習題也很有鑑別度。
+              </p>
+              <!-- 評價 -->
+              <div class="flex items-center mb-3">
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+              </div>
+              <!-- 課程資訊 -->
+              <div class="flex items-center py-1 px-2 bg-hi-fa">
+                <img
+                  src="./images/b5075134246d0a6d7ff48fa64c469acf.png"
+                  srcset="
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@2x.png 2x,
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@3x.png 3x
+                  "
+                  class="card__img"
+                />
+                <h5 class="card__title">
+                  Flutter X Dart 跨平台開發入門｜輕鬆打造原生應用App
+                </h5>
+              </div>
+            </li>
+          </ul>
+          <ul class="index__studentEvaluationList">
+            <li class="card">
+              <!-- 學生資訊 -->
+              <div class="flex items-center mb-1">
+                <img
+                  src="./images/lecturer.png"
+                  alt="lecturer"
+                  class="mr-2 w-6 object-cover rounded-full"
+                />
+                <span
+                  class="text-sm leading-hi-1.21 tracking-hi-3 text-gray-600"
+                  >紅蘿蔔四五六七八九十</span
+                >
+                <span
+                  class="ml-auto text-sm leading-hi-1.14 tracking-hi-3 text-gray-500"
+                  >2020/02/12</span
+                >
+              </div>
+              <!-- 口碑內容 -->
+              <p class="mb-1 text-15 tracking-hi-2 text-gray-700">
+                老師很用心！課程順序有邏輯且好理解
+                課後有什麼問題老師回答的很快速 還給我這個程式麻瓜鼓勵
+                推推！！練習題也很有鑑別度。
+              </p>
+              <!-- 評價 -->
+              <div class="flex items-center mb-3">
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+              </div>
+              <!-- 課程資訊 -->
+              <div class="flex items-center py-1 px-2 bg-hi-fa">
+                <img
+                  src="./images/b5075134246d0a6d7ff48fa64c469acf.png"
+                  srcset="
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@2x.png 2x,
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@3x.png 3x
+                  "
+                  class="card__img"
+                />
+                <h5 class="card__title">
+                  Flutter X Dart 跨平台開發入門｜輕鬆打造原生應用App
+                </h5>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 學生資訊 -->
+              <div class="flex items-center mb-1">
+                <img
+                  src="./images/lecturer.png"
+                  alt="lecturer"
+                  class="mr-2 w-6 object-cover rounded-full"
+                />
+                <span
+                  class="text-sm leading-hi-1.21 tracking-hi-3 text-gray-600"
+                  >紅蘿蔔四五六七八九十</span
+                >
+                <span
+                  class="ml-auto text-sm leading-hi-1.14 tracking-hi-3 text-gray-500"
+                  >2020/02/12</span
+                >
+              </div>
+              <!-- 口碑內容 -->
+              <p class="mb-1 text-15 tracking-hi-2 text-gray-700">
+                老師很用心！課程順序有邏輯且好理解
+                課後有什麼問題老師回答的很快速 還給我這個程式麻瓜鼓勵
+                推推！！練習題也很有鑑別度。
+              </p>
+              <!-- 評價 -->
+              <div class="flex items-center mb-3">
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+                <span
+                  class="material-icons mr-1 text-lg leading-none text-warning"
+                  >star
+                </span>
+              </div>
+              <!-- 課程資訊 -->
+              <div class="flex items-center py-1 px-2 bg-hi-fa">
+                <img
+                  src="./images/b5075134246d0a6d7ff48fa64c469acf.png"
+                  srcset="
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@2x.png 2x,
+                    ./images/b5075134246d0a6d7ff48fa64c469acf@3x.png 3x
+                  "
+                  class="card__img"
+                />
+                <h5 class="card__title">
+                  Flutter X Dart 跨平台開發入門｜輕鬆打造原生應用App
+                </h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="index__dot">
+          <li>
+            <button class="active"></button>
+          </li>
+          <li>
+            <button></button>
+          </li>
+          <li>
+            <button></button>
+          </li>
+          <li>
+            <button></button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

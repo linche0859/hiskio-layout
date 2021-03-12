@@ -1,0 +1,184 @@
+@charset "UTF-8";
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.carousel {
+  background-image: url("../images/首圖.png");
+  background-position: center;
+  background-size: cover;
+  height: 210px;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .carousel {
+    background-image: url("../images/首圖@2x.png");
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel {
+    background-image: url("../images/首圖@3x.png");
+  }
+}
+
+.carousel__dot {
+  bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.carousel__dot li {
+  line-height: 6px;
+}
+
+.carousel__dot li ~ li {
+  margin-left: 0.25rem;
+}
+
+.carousel__dot button {
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.carousel__dot .active {
+  opacity: 1;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 12px 10px 5px;
+}
+
+.card__title {
+  color: #454545;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.75;
+}
+
+.card__img {
+  border-radius: 6px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40.58%;
+}
+
+.index .card ~ .card {
+  margin-top: 0.5rem;
+}
+
+.index__seriesCourses .card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.index__seriesCourses .card__title {
+  color: #595959;
+  letter-spacing: normal;
+  line-height: 1.31;
+}
+
+.index__seriesCoursesList {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 0.5rem;
+  width: 94.20289%;
+}
+
+.index__studentEvaluation {
+  background-image: url("../images/bg-student-375.png");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 1.375rem;
+  padding-top: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .index__studentEvaluation {
+    background-image: url("../images/bg-student-375@2x.png");
+  }
+}
+
+@media (min-width: 1024px) {
+  .index__studentEvaluation {
+    background-image: url("../images/bg-student-375@3x.png");
+  }
+}
+
+.index__studentEvaluation .card__title {
+  color: #8c8c8c;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1.29;
+}
+
+.index__studentEvaluation .card__img {
+  border-radius: 2px;
+  margin-right: 0.25rem;
+  width: 21.17263%;
+}
+
+.index__studentEvaluationList {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 0.5rem;
+  width: 94.20289%;
+}
+
+.index__dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.index__dot li {
+  line-height: 6px;
+}
+
+.index__dot li ~ li {
+  margin-left: 0.25rem;
+}
+
+.index__dot button {
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+  background-color: #bfbfbf;
+  opacity: 0.5;
+}
+
+.index__dot .active {
+  opacity: 1;
+}

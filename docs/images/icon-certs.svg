@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__icon-certs" width="71" height="57" viewBox="0 0 71 57">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#16b6c6}.prefix__cls-4{opacity:.3}.prefix__cls-5{fill:#eb6767}
+        </style>
+    </defs>
+    <g id="prefix__Layer_1" data-name="Layer 1">
+        <path id="prefix__Rectangle_1333" fill="#d0f0f4" d="M0 0H71V57H0z" data-name="Rectangle 1333"/>
+        <path id="prefix__Path_72" fill="#118995" d="M67.313 3.727v49.546H3.687V3.727zM71 0H0v57h71z" data-name="Path 72"/>
+        <path id="prefix__Rectangle_1334" d="M0 0H51.071V4.193H0z" class="prefix__cls-3" data-name="Rectangle 1334" transform="translate(9.965 10.862)"/>
+        <path id="prefix__Rectangle_1335" d="M0 0H40.645V1.398H0z" class="prefix__cls-3" data-name="Rectangle 1335" transform="translate(15.177 20.913)"/>
+        <path id="prefix__Rectangle_1336" d="M0 0H40.645V1.398H0z" class="prefix__cls-3" data-name="Rectangle 1336" transform="translate(15.177 28.421)"/>
+        <path id="prefix__Rectangle_1337" d="M0 0H40.645V1.398H0z" class="prefix__cls-3" data-name="Rectangle 1337" transform="translate(15.177 35.916)"/>
+        <path id="prefix__Rectangle_1338" d="M0 0H39.439V1.398H0z" class="prefix__cls-3" data-name="Rectangle 1338" transform="translate(11.599 43.424)"/>
+        <path id="prefix__Path_73" d="M42.91 47.56l4.263-2.46 4.263 2.46V37.05H42.91z" class="prefix__cls-4" data-name="Path 73" transform="translate(8.808 7.61)"/>
+        <path id="prefix__Path_74" d="M42.91 46.56l4.263-2.46 4.263 2.46V36.05H42.91z" class="prefix__cls-5" data-name="Path 74" transform="translate(8.808 7.212)"/>
+        <path id="prefix__Path_75" d="M47.733 32.59l.811 1.1 1.1-.8.433 1.3 1.314-.419v1.37l1.37.014-.405 1.3 1.286.433-.8 1.118 1.1.811-1.1.811.8 1.1-1.286.433.405 1.3-1.37.014v1.37l-1.314-.419-.433 1.3-1.1-.8-.811 1.1-.811-1.1-1.118.8-.433-1.3-1.3.419-.014-1.37-1.37-.014.419-1.3-1.3-.433.8-1.1-1.1-.811 1.1-.811-.8-1.118 1.3-.433-.419-1.3 1.37-.014.014-1.37 1.3.419.433-1.3 1.118.8z" class="prefix__cls-4" data-name="Path 75" transform="translate(8.5 4.808)"/>
+        <path id="prefix__Path_76" d="M47.733 31.59l.811 1.1 1.1-.8.433 1.3 1.314-.419v1.37l1.37.014-.405 1.3 1.286.433-.8 1.118 1.1.811-1.1.811.8 1.1-1.286.433.405 1.3-1.37.014v1.37l-1.314-.419-.433 1.3-1.1-.8-.811 1.1-.811-1.1-1.118.8-.433-1.3-1.3.419-.014-1.37-1.37-.014.419-1.3-1.3-.433.8-1.1-1.1-.811 1.1-.811-.8-1.118 1.3-.433-.419-1.3 1.37-.014.014-1.37 1.3.419.433-1.3 1.118.8z" class="prefix__cls-5" data-name="Path 76" transform="translate(8.5 5.41)"/>
+        <path id="prefix__Path_77" fill="#fff" d="M71 0H0v57S13.347 9.206 71 0z" data-name="Path 77" opacity="0.3"/>
+    </g>
+</svg>

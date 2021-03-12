@@ -1,0 +1,24 @@
+{
+  "name": "hiskio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss-cli@latest build ./src/assets/css/tailwind.css -o ./docs/css/tailwind.css",
+    "dev": "cross-env NODE_ENV=development | npm run build:tailwind",
+    "build": "cross-env NODE_ENV=production | npm run build:tailwind",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.8",
+    "postcss-import": "^14.0.0",
+    "stylelint": "^13.12.0",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "tailwindcss": "^2.0.3"
+  }
+}
