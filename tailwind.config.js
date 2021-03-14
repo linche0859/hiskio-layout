@@ -2,6 +2,17 @@ module.exports = {
   purge: ['./src/**/*.html', './src/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      md: '768px',
+      lg: '1024px',
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '15px',
+        // lg: '0',
+      },
+    },
     extend: {
       fontSize: {
         15: [
@@ -41,6 +52,7 @@ module.exports = {
         warning: '#ffb715',
         danger: '#eb6767',
         hot: '#e34a4a',
+        day: '#ffa81d',
         gray: {
           500: '#bfbfbf',
           600: '#8c8c8c',

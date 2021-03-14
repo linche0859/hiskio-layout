@@ -1,5 +1,55 @@
-@mixin generate-dot {
+@mixin margin-x($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+@mixin padding-x($padding) {
+  padding-left: $padding;
+  padding-right: $padding;
+}
+
+// column-number：欄位數量
+@mixin grid($column-number) {
+  flex-basis: $column-number / $grid-columns * 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: $column-number / $grid-columns * 100%;
+}
+
+// $size：點的尺寸
+@mixin generate-dot($size: 6px) {
   border-radius: 50%;
-  height: 6px;
-  width: 6px;
+  height: $size;
+  width: $size;
+}
+
+// $name：按鈕名稱
+// $bg-color：背景顏色
+// $text-color：文字顏色
+@mixin generate-solid-btn($name, $bg-color, $text-color) {
+  .btn-#{$name} {
+    background-color: $bg-color;
+    border: 1px solid $bg-color;
+    color: $text-color;
+  
+    &:hover {
+      background-color: $text-color;
+      color: $bg-color;
+    }
+  }
+}
+
+// $name：按鈕名稱
+// $bg-color：背景顏色
+// $text-color：文字顏色
+@mixin generate-outline-btn($name, $bg-color, $text-color) {
+  .btn-outline-#{$name} {
+    border: 1px solid $bg-color;
+    color: $bg-color;
+  
+    &:hover {
+      background-color: $bg-color;
+      color: $text-color;
+    }
+  }
 }

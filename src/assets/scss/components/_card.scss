@@ -5,17 +5,65 @@
   overflow: hidden;
   padding: 12px 10px 5px;
   position: relative;
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    padding: 0;
+  }
+
 
   &__title {
     color: $gray-45;
     font-weight: 600;
     letter-spacing: 0.03em;
     line-height: 1.75;
+    @media (min-width: map-get($grid-breakpoints, lg)) {
+      line-height: 1.4;
+    }
   }
 
   &__img {
-    border-radius: 6px;
-    object-fit: contain;
-    width: 40.58%;
+    flex-shrink: 0;
+    position: relative;
+
+    &:hover {
+      img {
+        filter: brightness(0.7);
+      }
+
+      .card {
+        &__mask {
+          display: flex;
+        }
+      }
+    }
+
+    img {
+      border-radius: 6px;
+      height: 76px;
+      object-fit: cover;
+      width: 140px;
+      @media (min-width: map-get($grid-breakpoints, lg)) {
+        border-radius: 0;
+        height: 130px;
+        width: 100%;
+      }
+    }
+  }
+
+  &__mask {
+    align-items: center;
+    bottom: 10px;
+    display: none;
+    position: absolute;
+    right: 10px;
+
+    i {
+      color: $white;
+      font-size: 1.25rem;
+      line-height: 1.25rem;
+
+      ~ i {
+        margin-left: 0.75rem;
+      }
+    }
   }
 }

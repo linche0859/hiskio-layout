@@ -2,17 +2,20 @@
   position: relative;
 
   &__dot {
-    bottom: 0.5rem;
     display: flex;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
 
     li {
       line-height: 6px;
+      @media (min-width: map-get($grid-breakpoints, md)) {
+        line-height: 10px;
+      }
 
       ~ li {
         margin-left: 0.25rem;
+
+        @media (min-width: map-get($grid-breakpoints, md)) {
+          line-height: 0.5rem;
+        }
       }
     }
 
@@ -20,6 +23,10 @@
       @include generate-dot;
       background-color: $white;
       opacity: 0.5;
+
+      @media (min-width: map-get($grid-breakpoints, md)) {
+        @include generate-dot(10px);
+      }
     }
 
     .active {

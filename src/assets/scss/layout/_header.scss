@@ -4,9 +4,24 @@
   background-size: cover;
   height: 210px;
   @media (min-width: map-get($grid-breakpoints, md)) {
-    background-image: url('../images/首圖@2x.png');;
+    background-image: url('../images/首圖@2x.png');
+    height: 335px;
   }
   @media (min-width: map-get($grid-breakpoints, lg)) {
-    background-image: url('../images/首圖@3x.png');;
+    background-image: url('../images/首圖@3x.png');
+    height: 640px;
+  }
+
+  .carousel {
+    &__dot {
+      bottom: 0.5rem;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+
+      @media (min-width: map-get($grid-breakpoints, md)) {
+        bottom: 89px;
+      }
+    }
   }
 }

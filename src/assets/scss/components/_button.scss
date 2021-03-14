@@ -10,15 +10,7 @@
   &:focus {
     outline: 0;
   }
-
-  &.btn-primary {
-    background-color: $primary;
-    border: 1px solid $primary;
-    color: $gray-f8;
-
-    &:hover {
-      background-color: $gray-f8;
-      color: $primary;
-    }
-  }
 }
+
+@include generate-solid-btn('primary', $primary, $gray-f8);
+@include generate-outline-btn('primary', $primary, $gray-f8);
